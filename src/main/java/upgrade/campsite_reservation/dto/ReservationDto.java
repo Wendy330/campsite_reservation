@@ -29,6 +29,7 @@ import upgrade.campsite_reservation.validators.StartDateBeforeEndDate;
 @MaximumStay
 @StartDateBeforeEndDate
 public class ReservationDto {
+	
 	public ReservationDto(Long id, 
 						  Long version, 
 						  Long campsiteId,  
